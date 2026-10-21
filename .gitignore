@@ -1,0 +1,11 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Scratch space for local checks; deleted before verification
+test/scratch/
+
+# Orphaned directory left by the sandbox (its nested .gitmodules is locked read-only).
+# The vendored OpenZeppelin sources live in lib/openzeppelin instead.
+lib/openzeppelin-contracts/
