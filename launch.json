@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "PangeaToken",
+    "name": "Pangea",
+    "symbol": "PANGEA",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "4000000000000000000000",
+    "remainderTo": "0xd0116c7e933029a0abfa388757a3d7a7686ee681"
+  },
+  "notes": "PangeaToken is a fixed-supply ERC-20 named Pangea (PANGEA) with 18 decimals. Its no-argument constructor mints all 1,000,000,000 tokens to msg.sender, the factory during launch. It has no owner, additional minting, transfer fees, burn, pause or blocklist functionality. No application contracts are deployed. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
